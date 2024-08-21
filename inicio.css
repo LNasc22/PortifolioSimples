@@ -1,0 +1,97 @@
+@font-face{
+    font-family: "SF Pro Display";
+    src: url("fonts/sfpro/SFPRODISPLAYBOLD.OTF")
+}
+
+body{
+    background-color: #00C95705;
+    font-family: "SF Pro Display";
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    /* height: 100vh; */
+    width: 100vw;
+}
+
+.ft{
+    width: 438px;
+    height: 438px;
+    border-radius: 12px;
+    box-shadow: 1px 6px 6px #27507A50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70px;
+}
+
+.link {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 1px 6px 6px #27507A50;
+    border: 1px solid #27507A;
+}
+
+.link a{
+    display: flex;
+    gap: 10px;
+}
+
+/* a img{
+    width: 50px;
+    height: 50px;
+} */
+
+#lucas{
+    margin-top: 20px;
+}
+
+.link:hover{
+    background-color: pink;
+    cursor: pointer;
+    justify-content: space-around;
+    transition: 1s;
+}
+
+/*INICIO*/
+#portfolioTitulo{
+    color: #27507A;
+}
+
+.tudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+.ftinicio{
+    border: 1px solid #27507A;
+    transition: 1s;
+}
+
+.portfolios {
+    color: #27507A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.ftinicio:hover{
+    background-color: #afc8e1;
+}
